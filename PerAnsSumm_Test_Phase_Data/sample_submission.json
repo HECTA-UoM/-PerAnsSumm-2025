@@ -1,0 +1,53 @@
+[
+    {
+        "uri": 504766,
+        "spans": {
+            "EXPERIENCE": ["a clay mask will make the eczema go away completely, while lotions tend to just suppress it for a short while.","My 4 month old son has eczema and his peds doctor told me.  To use soap with moisturizer or baby oil in water.","I myself have eczema in winter times and switched to Eucerin Cream instead of my everday lotion.  It is working very well to not get a bad case of eczema."],
+            "INFORMATION": ["Eczema is a condition,not a desease.","Any health store will have it. A lot of grocery stores will too."],
+            "CAUSE": ["it gets worse in winter b/c of dry heat."],
+            "SUGGESTION": ["Taking flax oil every day is good.  Two tblsp a day. Mix it with some juice, if you cant handle the taste.Or take it as a capsule.", "Drink alot of water, just plain old H20, not soda or diet soda.  Will help keep the skin hydrated from the inside out.  Also, run a humidifier durring the winter to put moisture back into the air. It won't prevent it, but may cause it to be less severe.", "Use a cream not just a lotion after showering. Like Vaseline or Eucerin Cream."],
+            "QUESTION": []
+        },
+        "summaries": {
+            "EXPERIENCE": "This is a sample experience summary",
+            "INFORMATION": "Eczema is a condition, not a disease. Flaxseed oil, which can help support skin health, is widely available and can be found at health stores or many grocery stores.",
+            "CAUSE": "Eczema often worsens in winter due to the dry heat, which can strip moisture from the skin.",
+            "SUGGESTION": "To help prevent eczema or reduce its severity, maintain proper hydration by drinking plenty of water and using a humidifier during dry winter months to add moisture to the air. Incorporate flaxseed oil into your diet daily, either as capsules or mixed with juice, to support skin health. After showering, apply a rich cream like Vaseline or Eucerin to lock in moisture and keep the skin hydrated.",
+            "QUESTION": ""
+        }
+    },
+    {
+        "uri": 1564117,
+        "spans": {
+            "EXPERIENCE": [],
+            "INFORMATION": ["hypothyroidism which meens that your body is not producing enough thyroid hormones. this can cause you to gain weight and lack energy.", "Your metabolism slows as we age and you need to keep your metabolism going or you will be gaining weight and at risk for complications or dieases.", ", you don't need to diet to loose weight.", "In order to get the minimum nutrients your body requires you would have to consume 5000 calories a day of just the right kinds of foods.  Impossible with today's food supply.  Dieters are horrible eaters and are usually meal skippers.  Depending on height and weight the average women needs 100 grams of lean protein daily, 7-9 services of fruits and veggies, and at least 1 gal of water every day"],
+            "CAUSE": ["hypothyroidism", "depression", "you need to be taking vitamin, mineral supplements because you body is lacking something"],
+            "SUGGESTION": ["see a doctor", "You need to do more in order for you to lose the weight although you say you are active.", ".When you are at home at night, walk for 30 minutes before you sit down to eat", "eat what you like and when you like. All that needs to be done is balancing the input with the output. Experiment with food combinations and exercise routines. Bank on raw vegetables and fruits to get full, then enjoy the 'real food'. Do play a sport, even if its 'catch the chicken'. Stay happy, get proper sleep, and enjoy life.p.s drink lemon juice with honey tea,"],
+            "QUESTION": []
+        },
+        "summaries": {
+            "EXPERIENCE": "",
+            "INFORMATION": "Hypothyroidism, characterized by insufficient production of thyroid hormones, can lead to weight gain and fatigue due to a slowed metabolism. As metabolism naturally slows with age, maintaining an active lifestyle becomes crucial to prevent weight gain and associated complications. The assertion that you don't need to diet to lose weight suggests the importance of focusing on nutrient-dense foods rather than restricting calories excessively. Achieving the minimum nutrient requirements necessitates consuming around 5000 calories a day from the right sources, which is impractical in today's food environment. The statement also emphasizes that dieters, often characterized by poor eating habits and meal skipping, might struggle to meet their nutritional needs. Depending on factors like height and weight, the average woman requires around 100 grams of lean protein daily, 7-9 servings of fruits and vegetables, and at least one gallon of water to support overall health.",
+            "CAUSE": "Low energy and weight gain may be due to hypothyroidism, depression, or lack of minerals and vitamins.",
+            "SUGGESTION": "While being active is beneficial, it's advised to consult a doctor for personalized weight loss guidance. To enhance weight loss efforts, consider incorporating additional strategies, such as walking for 30 minutes before evening meals, experimenting with food combinations, and trying various exercise routines. Balancing input and output is key, focusing on raw vegetables and fruits to feel full before enjoying other foods. Engaging in a sport or physical activity, even casually, contributes to overall well-being. Prioritize happiness, proper sleep, and enjoyment of life. Additionally, drinking lemon juice with honey tea is suggested, potentially offering additional health benefits. Overall, a multifaceted approach that includes both dietary and lifestyle adjustments can contribute to effective and sustainable weight management.",
+            "QUESTION": ""
+        }
+    },
+    {
+        "uri": 10,
+        "spans": {
+            "EXPERIENCE": ["","",""],
+            "INFORMATION": ["",""],
+            "CAUSE": [""],
+            "SUGGESTION": ["", ""],
+            "QUESTION": []
+        },
+        "summaries": {
+            "EXPERIENCE": "This is a sample experience summary",
+            "INFORMATION": "",
+            "CAUSE": "",
+            "SUGGESTION": "",
+            "QUESTION": ""
+        }
+    }
+]

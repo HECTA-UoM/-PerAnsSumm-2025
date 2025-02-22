@@ -1,0 +1,87 @@
+[
+    {
+      "uri": 90138,
+      "spans": {
+        "EXPERIENCE": ["I get these frequently and really don't know why or how to prevent them.", "I get in grown hair sometimes that get infected and puss up", "My sister had one in her arm pit and she thought it was cancer but it turned out to be a cyst!!!"],
+        "INFORMATION": ["Boils are a bad infection of a hair follicle, and people prone to them can get them repeatedly.", "If the problem is on your labia, internal or external, then it may be a Bartholin's cyst. Although they hurt and can swell, they are not serious per se. Women can also get these repeatedly."],
+        "CAUSE": ["They can be caused from an in-grown hair.", "Its cause by and ingrown hair"],
+        "SUGGESTION": ["Just keep it as clean as possible and let it drain.", "go to your.dr. and let hm chech this out better safe thAN SORRY"],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "Multiple users reported experiencing recurring boils and ingrown hairs that become infected.",
+        "INFORMATION": "Boils are follicle infections that can recur. Bartholin's cysts can occur on labia, causing pain and swelling but are not serious.",
+        "CAUSE": "Boils and cysts are typically caused by ingrown hairs.",
+        "SUGGESTION": "Keep the area clean, allow drainage, and consult a doctor for proper diagnosis.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 4349351,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": ["Resistant strains are caused when Antibiotics are used when they should not be. If you have cold or flu symptoms, these are viral and antibiotics should not be use."],
+        "CAUSE": [],
+        "SUGGESTION": ["If you are given an antibiotic for a bacterial infection, take all the medication as prescribed. Do not stop early unless your doc tells you to.", "using bacterio-phages in place of broad spectrum antibiotics for common bacterial infections."],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Antibiotic resistance develops from inappropriate antibiotic use, particularly when used for viral infections like colds and flu.",
+        "CAUSE": "",
+        "SUGGESTION": "Complete prescribed antibiotic courses and consider bacteriophages as an alternative to broad-spectrum antibiotics.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 4075997,
+      "spans": {
+        "EXPERIENCE": ["I started biting my nails when I was three and continued to do it for a little more then 2 decades."],
+        "INFORMATION": ["It's just a habbit.", "Probably it is a habit PLUS a thing you do when you are nervous or uncomfortable or bored."],
+        "CAUSE": ["You have an anxiety problem."],
+        "SUGGESTION": ["keep under your nails very clean of crud of all types", "Get an emory board and make the edges smooth and instead of biting your nails trace them with thumb.", "I've tried putting clear nail polish on my nails so whenever i go to bite it doesn't taste so pleasant."],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "One person reported nail-biting from age three for over two decades.",
+        "INFORMATION": "Nail-biting is a habit often associated with nervousness, discomfort, or boredom.",
+        "CAUSE": "Anxiety is identified as a root cause of nail-biting behavior.",
+        "SUGGESTION": "Keep nails clean, use emery boards for smoothing, and apply clear nail polish as a deterrent.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 1813722,
+      "spans": {
+        "EXPERIENCE": ["My daughter has one that comes and goes on her hand.", "When it does come back, it doesn't last long.", "hers did come back"],
+        "INFORMATION": ["Ganglion cysts usually only require surgery under certain conditions and usually you do not need physical therapy to recover.", "It is thought that ganglion cysts are just pocketed areas of extracellular fluid that is being caught in between laters of connective tissue."],
+        "CAUSE": ["It is allowed to get into these areas because the inner most of outer most layer may have thinned or degenerated due to repetitive stress as many people that develop these cysts perform manual labor or work on computers all day"],
+        "SUGGESTION": [],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "Multiple people reported that ganglion cysts tend to recur and can come and go.",
+        "INFORMATION": "Ganglion cysts are fluid-filled pockets between connective tissue that rarely require surgery or physical therapy.",
+        "CAUSE": "These cysts often develop due to repetitive stress from manual labor or computer work, causing tissue thinning.",
+        "SUGGESTION": "",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 4059107,
+      "spans": {
+        "EXPERIENCE": ["I've had severe acne for several years. I finally tried Proactive and it worked very well but as you age it becomes too drying."],
+        "INFORMATION": [],
+        "SUGGESTION": ["Use a cleanser, astringent and moisturizer.", "see a dermatologist. There might be something else going on with your skin, or maybe you need an anti-biotic or prescription medicine", "washing your face twice a day with mild soap and warm water will help"],
+        "QUESTION": [],
+        "CAUSE": []
+      },
+      "summaries": {
+        "EXPERIENCE": "One user found Proactiv effective for severe acne but too drying with age.",
+        "INFORMATION": "",
+        "CAUSE": "",
+        "SUGGESTION": "Use cleanser, astringent, and moisturizer. Wash face twice daily with mild soap. Consider seeing a dermatologist for prescription treatment.",
+        "QUESTION": ""
+      }
+    }
+]

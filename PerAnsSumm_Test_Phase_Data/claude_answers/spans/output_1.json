@@ -1,0 +1,116 @@
+[
+  {
+    "uri": 1976968,
+    "spans": {
+      "EXPERIENCE": [],
+      "INFORMATION": [
+        "Dust mites hate alcohol or babyoil products"
+      ],
+      "CAUSE": [],
+      "SUGGESTION": [
+        "Go buy some Fabree Allergen spray at Food Lion or any store that carries it. It eliminates 75% of dust mites. Use germ-x (handcleaner) on your mattress.",
+        "get rid of carpets, and all sorts of fabrics around the house, use blinds instead of drapes, dont wear fuzzy sweaters, have your air ducting cleaned, get an electrostatic air cleaner put on your forced air heat system or a very good air filtration fan with filters you change often, clean like mad, use hypoallergenic mattress and pillow covers",
+        "Buy a new pillow and wash the bed sheets once a week. A plastice cover for the bed will greatly reduce the dust mites at night time",
+        "Pillow and mattress casings worked wonders for me. So did changing bedsheets and pillow cases every 5-7 days"
+      ],
+      "QUESTION": []
+    },
+    "summaries": {
+      "EXPERIENCE": "",
+      "INFORMATION": "Dust mites are repelled by alcohol and baby oil products.",
+      "CAUSE": "",
+      "SUGGESTION": "Use allergen spray, mattress covers, and regular cleaning. Remove carpets and excess fabrics, install air filters, and wash bedding weekly. Use hypoallergenic covers for mattresses and pillows.",
+      "QUESTION": ""
+    }
+  },
+  {
+    "uri": 4304488,
+    "spans": {
+      "EXPERIENCE": [],
+      "INFORMATION": [
+        "If it was allergies both sides of your nose would be involved and you would have sneezing and possibly some clear nasal drainage. Since you don't mention that it is probably sinuses"
+      ],
+      "CAUSE": [],
+      "SUGGESTION": [
+        "You can try taking Sudafed to see if this helps",
+        "get a neti pot and use saline to rinse your your sinuses every night when you feel like this"
+      ],
+      "QUESTION": []
+    },
+    "summaries": {
+      "EXPERIENCE": "",
+      "INFORMATION": "Single-sided nasal congestion without sneezing and clear drainage indicates sinus issues rather than allergies.",
+      "CAUSE": "",
+      "SUGGESTION": "Try Sudafed or use a neti pot with saline solution for sinus rinses.",
+      "QUESTION": ""
+    }
+  },
+  {
+    "uri": 3487388,
+    "spans": {
+      "EXPERIENCE": [],
+      "INFORMATION": [
+        "Okay, this is going to sound disgusting, but does it look like a ball of pasta? Does it have a bad odor? It's been said that it is a build up of plaque (the same that covers your teeth) that accumulates"
+      ],
+      "CAUSE": [],
+      "SUGGESTION": [
+        "Just keep up with the oral hygiene",
+        "go to an ear, eye, nose and throat doctor"
+      ],
+      "QUESTION": []
+    },
+    "summaries": {
+      "EXPERIENCE": "",
+      "INFORMATION": "The waxy substance may be accumulated plaque similar to what forms on teeth.",
+      "CAUSE": "",
+      "SUGGESTION": "Maintain good oral hygiene and consult an ear, nose, and throat specialist.",
+      "QUESTION": ""
+    }
+  },
+  {
+    "uri": 3265104,
+    "spans": {
+      "EXPERIENCE": [],
+      "INFORMATION": [
+        "There are two drugs out there, topamax which you would take every day, and relpax which you would take when you get the migraine"
+      ],
+      "CAUSE": [],
+      "SUGGESTION": [
+        "take some advil and drink something with a lot of caffeine in it, preferably coffee and lie down",
+        "Lying in a dark, quiet room, cold compress over the eyes helps",
+        "i find sleep is the only thing that works for me, is lying in a dark room with a cool face washer or ice pack on my head"
+      ],
+      "QUESTION": []
+    },
+    "summaries": {
+      "EXPERIENCE": "",
+      "INFORMATION": "Treatment options include daily Topamax and as-needed Relpax for migraines.",
+      "CAUSE": "",
+      "SUGGESTION": "Take Advil with caffeine, rest in a dark quiet room, and apply cold compress to eyes or head.",
+      "QUESTION": ""
+    }
+  },
+  {
+    "uri": 267201,
+    "spans": {
+      "EXPERIENCE": [],
+      "INFORMATION": [
+        "First check and see if the white stuff on your tongue can easily be scraped off. If it can, then it is most likely a candida (yeast) infection. Any condition in which your immune system drops (such as prolonged used of antibiotics, corticosteriods, or immunocompromising diseases like AIDS, chemotherapy, etc.) can predispose you to this infection",
+        "if the white stuff can not be easily scraped off, then the diagnosis is most likely something called leukoplakia that could be precancerous"
+      ],
+      "CAUSE": [],
+      "SUGGESTION": [
+        "you should consult a physician",
+        "see a doctor"
+      ],
+      "QUESTION": []
+    },
+    "summaries": {
+      "EXPERIENCE": "",
+      "INFORMATION": "Scrapable white coating may indicate candida infection, common with lowered immunity. Non-scrapable white coating could be leukoplakia, a potentially precancerous condition.",
+      "CAUSE": "",
+      "SUGGESTION": "Consult a physician for proper diagnosis.",
+      "QUESTION": ""
+    }
+  }
+]

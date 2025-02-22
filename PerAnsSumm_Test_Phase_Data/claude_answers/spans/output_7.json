@@ -1,0 +1,118 @@
+[
+    {
+      "uri": 2655318,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "Hey I am a researcher in the field of psychiatry. It is not necessarily life long. If you were diagnosed young (as in adolescence or childhood) I would reconsider the diagnosis. The adolescent brain undergoes many changes making them behave more impulsively and more moody than a typical adult and this is normal."
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "Medication, some counselling, and a good dose of self-control are necessary.",
+          "You can take medicines to help out",
+          "Try practicing mediation and make sure you eat healthy."
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Bipolar disorder is not necessarily lifelong, particularly for those diagnosed during adolescence when the brain naturally undergoes changes affecting mood and impulse control.",
+        "CAUSE": "",
+        "SUGGESTION": "Treatment involves medication, counseling, self-control techniques, meditation, and maintaining a healthy diet.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 1032161,
+      "spans": {
+        "EXPERIENCE": [
+          "I wish I could help you but at present I feel like you.What helps me a lot is the thought that nothing lasts for ever so soon or late everything will be over."
+        ],
+        "INFORMATION": [],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "Contact your local mental health center. They should be able to provide an evaluation, assessment and medications.",
+          "Get some professional help NOW!! Don't wait any longer. There are places that will take smaller payments or none at all if you really need it as they are needs based.",
+          "I would go to a psychologist before a psychiatrist. Most psychologists can refer you to an MD if necessary for medication. You could also start with a family doctor."
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "One responder shared similar feelings of depression and found comfort in the temporary nature of difficult situations.",
+        "INFORMATION": "",
+        "CAUSE": "",
+        "SUGGESTION": "Seek immediate professional help through local mental health centers, psychologists, or family doctors. Many facilities offer payment assistance based on need.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 1768155,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [],
+        "CAUSE": [
+          "If you have hit it, then you may have rupptured the fregments in your arms (meaning: the muscle, causing it to bloat/swell) making it look like what you said \"a second elbow\"",
+          "you could have pulled a muscle"
+        ],
+        "SUGGESTION": [
+          "you need to see a doctor",
+          "you may want to go get it ex-rayed from your local docter/hospital/walk-in-clinic"
+        ],
+        "QUESTION": [
+          "Has it always been that way?"
+        ]
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "",
+        "CAUSE": "The condition may be caused by a ruptured muscle fragment or pulled muscle, resulting in swelling that creates the appearance of a second elbow.",
+        "SUGGESTION": "Seek medical attention and get an X-ray at a local healthcare facility.",
+        "QUESTION": "Inquired about whether the condition was pre-existing."
+      }
+    },
+    {
+      "uri": 1907770,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "Gonorrhea, also known as \"the clap,\" is an extremely contagious sexually transmitted disease (STD). It is the second most reported infectious disease in the United States (after chlamydia), according to the Centers for Disease Control and Prevention. The gonorrhea bacteria is spread through the body fluids associated with sexual activity. Transmission can occur during any kind of sexual contact – vaginal, oral or anal.",
+          "gonorrhea does not live that long on surfaces...so the only practical way to transmit it is via sex"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "Get seen by a doctor very soon, who can test for antibodies to see if you really have it or not, and if you do, he can prescribe antibiotics to cure you within a week or so."
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Gonorrhea is a highly contagious STD transmitted through sexual contact (vaginal, oral, or anal) via body fluids. It cannot survive long on surfaces, making sexual contact the only practical transmission method.",
+        "CAUSE": "",
+        "SUGGESTION": "See a doctor for antibody testing and antibiotic treatment if needed.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 3576787,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "Your body is expelling the mucous that was caused by the virus. The mucous is white blood cells that were made by your body to combat the effects of the influenza.",
+          "If you are not experiencing fever, then you are not contagious."
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "Go to work and get paid!",
+          "Call the doctor."
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Discolored mucus is the body expelling white blood cells that fought the virus. A person is not contagious when fever-free.",
+        "CAUSE": "",
+        "SUGGESTION": "Safe to return to work, but consider consulting a doctor if concerned.",
+        "QUESTION": ""
+      }
+    }
+  ]

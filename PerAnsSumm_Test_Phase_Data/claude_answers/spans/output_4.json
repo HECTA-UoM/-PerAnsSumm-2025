@@ -1,0 +1,126 @@
+[
+    {
+      "uri": 3619868,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "Generally, they're pretty safe to use, although the best way to get nutrition in terms of body building is to eat natural protein.",
+          "Some may cause electrolyte disorder resulting in liver problems, fainting spells to name a few side-effects, which later may be irreversible."
+        ],
+        "CAUSE": [
+          "if your muscles get to big for your bodyframe, you will risk injuring your tendons and ligaments since they also need to adapt to growing muscles"
+        ],
+        "SUGGESTION": [
+          "Just be careful to follow directions on the supplements and not overdose.",
+          "First get a complete medical checkup (blood work, etc..)This will tell you what your body is lacking in nutrition.",
+          "avoid steriods and try to stay with natural supplements"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Supplements are generally safe but can cause electrolyte disorders, liver problems, and fainting spells that may be irreversible. Natural protein is the best source of nutrition for bodybuilding.",
+        "CAUSE": "Excessive muscle growth can strain tendons and ligaments if they don't adapt at the same rate as muscle growth.",
+        "SUGGESTION": "Follow supplement directions carefully, avoid steroids, use natural supplements, and get medical checkup with blood work before starting supplements.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 2628723,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [],
+        "CAUSE": [
+          "When you first start, your muscles are going to be very sore because you are subjecting them to a workload they aren't used to"
+        ],
+        "SUGGESTION": [
+          "you should start slow and work up to what ever you decide to do whether it walking or lifting weights",
+          "Learn the proper form so you can avoid injury and ensure you are working the muscles correctly",
+          "try to swim... It makes you hungry and you can eat a cow after you have swim for an hour! It also create least damage to your joints"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "",
+        "CAUSE": "Initial muscle soreness occurs due to unaccustomed workload on muscles.",
+        "SUGGESTION": "Start slowly, learn proper form, consider swimming as it creates minimal joint impact and increases appetite.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 3254447,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "You should do 3 sets 12,10,8 or 10,8,6 reps starting with a weight that gives you enough resistance, then try to increase the weight from 3 to 5 pounds each hand each set",
+          "The key to building muscle is to break it down and then give it time to rebuild"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "Try high intensity interval training. It should let you cut fat without any muscle loss",
+          "Keep in mind you should always change your training protocol every so often",
+          "Stay away from drugs and fads"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Muscle building requires sets of 12,10,8 or 10,8,6 reps with increasing weight by 3-5 pounds per set. The process involves breaking down muscle and allowing time for rebuilding.",
+        "CAUSE": "",
+        "SUGGESTION": "Incorporate high intensity interval training for fat loss, regularly change training protocols, and avoid drugs and fads.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 4036468,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "STRONG ABDOMEN = NO BACK PAIN"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "At night, sleep on your side, legs slightly bent, with a thin pillow between your knees. This will reduce the presure on your spine as you sleep",
+          "Stretch your back several times a day. A good one is lay flat on your back, rotate your trunk, with your left leg straight and your right leg bent, try to touch your right knee to the ground to your left",
+          "WORK YOUR STOMACH OUT. DO SIT-UPS REGULARLY"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "A strong abdomen helps prevent back pain.",
+        "CAUSE": "",
+        "SUGGESTION": "Sleep on side with pillow between knees, perform regular back stretches including trunk rotations, and strengthen stomach muscles with regular sit-ups.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 1684028,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "Pain in the shins while exercising, commonly referred to as shin splints, is a condition where there is pain in the anterior tibia caused by overuse of the anterior tibilias muscle. They are most common in inexperienced runners or runners who overtrain"
+        ],
+        "CAUSE": [
+          "Running on hard surfaces",
+          "Insufficient padding in the shoes",
+          "Over-pronated and/or flat feet can also lead to increased stress on the lower leg muscles during exercise",
+          "High arched feet can experience shin splint discomfort because this foot type is a poor shock absorber"
+        ],
+        "SUGGESTION": [
+          "Running and other strenuous lower limb activities should be avoided until the pain subsides",
+          "In conjunction with rest, icing and anti-inflammatories may be suggested by a doctor or trainer",
+          "Take it easy and progress into a walking program first before running"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Shin splints are pain in the anterior tibia from overuse of the anterior tibialis muscle, common in new or overtrained runners.",
+        "CAUSE": "Causes include running on hard surfaces, insufficient shoe padding, flat feet or over-pronation, and high arched feet with poor shock absorption.",
+        "SUGGESTION": "Rest until pain subsides, consider icing and anti-inflammatories, and start with a walking program before running.",
+        "QUESTION": ""
+      }
+    }
+  ]

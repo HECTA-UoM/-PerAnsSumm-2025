@@ -1,0 +1,128 @@
+[
+    {
+    "uri": 4088916,
+    "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+        "Rice is 15g of carb for every 1/3 of a cup. Most pasta (check the package) is about 15g per half cup. Mashed Potatos are about the same."
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+        "What, your physician didn't refer you to a certified diabetes educator? That's the best person you could ask for a reference to. An acceptable alternative is a registered dietician.",
+        "Eat a good, balanced normal diet... what you ate before you were diagnosed with diabetes. Just make sure you take insulin for whatever you're eating according to the plan you made with your doctor.",
+        "- check www.diabetes.org (Amer Diab Assoc) for books - eat balanced diet watching carbohydrate intake - watch portion sizes and check nutrition labels - fruits are good for you but high in carbs; eat in moderation and watch portion sizes - some \"veggies\" are really \"starches\" like potatoes, corn, peas, \"dry\" beans => high in carbs - eat a variety of foods (similar to 2nd one above) - eat breakfast - eat small meals"
+        ],
+        "QUESTION": [
+        "How many calorie diet are you on?"
+        ]
+    },
+    "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Rice contains 15g carbohydrates per 1/3 cup, pasta has 15g per half cup, and mashed potatoes have similar carbohydrate content.",
+        "CAUSE": "",
+        "SUGGESTION": "Consult a certified diabetes educator or registered dietician. Maintain a balanced diet with insulin adjustments per doctor's plan. Monitor carbohydrate intake, watch portion sizes, and be mindful of high-carb fruits and starchy vegetables. Eat regular small meals including breakfast.",
+        "QUESTION": "Inquired about caloric intake requirements."
+    }
+    },
+    {
+    "uri": 2181276,
+    "spans": {
+        "EXPERIENCE": [
+        "I HAVE EMPHYSEMA WHICH IS SIMULAR ISN'T THEIR ANY MEDICATION YOUR DOCTOR CAN TRY OTHER THAN YOUR INHAILER",
+        "I have had asthma most of my life. When I was 13, treatment for asthma wasn't as good as it is now, at least for me. The medications now seem to have fewer side effects than what they insisted I should take for long-term daily treatment when I was younger."
+        ],
+        "INFORMATION": [],
+        "CAUSE": [],
+        "SUGGESTION": [
+        ":-Stay away from Milk and its by-products :-In cold weather, stay warm :-Try Clarinase for your sinus :-Stay away from Smog(the exhaust from vehicles); Smoke/Second Hand Smoke (from cigarettes); Strong colognes/Perfumes; Fumes from Chemicals(Fresh Paint, Thinner); Mold. :-If you find yourself coughing for no apparent reason, move away from that area as it might contain some kind of mold. :-After coughing up mucus, always spit it out, never swallow. :-If and when you feel tightness in your chest, try drinking some Chamomile Tea. :-It is best for you to stay in a well ventilated atmosphere.",
+        "Maybe take your inhaler as a preventative about a half an hour before you participate in active sports."
+        ],
+        "QUESTION": [
+        "Are you using any maintenance medications to keep your asthma under control like an inhaled steroid?",
+        "How many times a week do you use your rescue inhaler?",
+        "Do you use a spacer?",
+        "When you are having trouble do you tell someone or do you try to hide it"
+        ]
+    },
+    "summaries": {
+        "EXPERIENCE": "Respondents shared experiences with emphysema and long-term asthma management, noting improvements in modern asthma medications with fewer side effects compared to older treatments.",
+        "INFORMATION": "",
+        "CAUSE": "",
+        "SUGGESTION": "Avoid triggers including dairy products, cold weather, smoke, strong odors, and chemicals. Stay in well-ventilated areas, use inhaler preventatively before sports, and try chamomile tea for chest tightness.",
+        "QUESTION": "Questions about maintenance medications, rescue inhaler usage frequency, spacer use, and communication about symptoms."
+    }
+    },
+    {
+    "uri": 4417351,
+    "spans": {
+        "EXPERIENCE": [
+        "oh girl!! it is not so good, I've had it and it is so uncomfortable"
+        ],
+        "INFORMATION": [
+        "If there is a gross discharge that looks a little like cottage cheese - you've got it. It REALLY itches too and makes the whole pudendal area look REALLY red.",
+        "lots of secretion, and maybe even a colored fluid, and bad odor!"
+        ],
+        "CAUSE": [
+        "Don't take long soaks in bubble bath. It's very alkaline and gets into your vagina and destroys the natural pH of your vagina which invites infections. Also don't wipe from back to front as feces in the vagina from bad wiping or sloppy sex can cause \"yeast overgrowth\" infections\"."
+        ],
+        "SUGGESTION": [
+        "Get a mirror and LOOK.",
+        "Douche with an iodine based disposable douche kit (over the counter) and see a doctor to get an antibiotic suppository."
+        ],
+        "QUESTION": []
+    },
+    "summaries": {
+        "EXPERIENCE": "Personal experience described as uncomfortable condition.",
+        "INFORMATION": "Symptoms include cottage cheese-like discharge, intense itching, redness in pudendal area, colored fluid secretion, and bad odor.",
+        "CAUSE": "Causes include disrupted vaginal pH from bubble baths and improper wiping technique leading to bacterial transfer.",
+        "SUGGESTION": "Perform visual inspection with mirror, use over-the-counter iodine douche, and consult doctor for antibiotic suppository.",
+        "QUESTION": ""
+    }
+    },
+    {
+    "uri": 3785388,
+    "spans": {
+        "EXPERIENCE": [
+        "I have asthma and I don't have it bad I only have problems when I am sick."
+        ],
+        "INFORMATION": [
+        "Not much danger of over-dosing with Albuterol."
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+        "I suggest to take it as soon as you notice that you have difficulty in breathing. Waiting for the condition to worsen before taking the inhaler will decrease the speed of the medication to take effect.",
+        "Generally, two puffs, about 15-30 seconds apart should be used.",
+        "When an asthma crisis is beginning and I start to breath hard, I use the inhaler 2-3 puffs, 3 times a day."
+        ],
+        "QUESTION": []
+    },
+    "summaries": {
+        "EXPERIENCE": "Shared experience of mild asthma primarily occurring during illness.",
+        "INFORMATION": "Albuterol has low risk of overdose.",
+        "CAUSE": "",
+        "SUGGESTION": "Take medication at first sign of breathing difficulty. Use two puffs 15-30 seconds apart, or 2-3 puffs three times daily during crisis.",
+        "QUESTION": ""
+    }
+    },
+    {
+    "uri": 3733589,
+    "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+        "The small intestine is about 6 meters (20 feet) long. The large intestine has a larger width but is only 1.5 meters (5 feet) long. So total 25 feet.",
+        "The small intestine is a long, narrow, coiled tube extending from the stomach to the large intestine. This is the place where most digestion and absorption of food takes place. The small intestine of a human can be as long as six to eight meters long, depending on age and size of being.",
+        "The large intestine is wider but shorter than the small intestine. It measures approximately 1.5 meters in length and its primary function is to absorb water and electrolytes that have already passed unabsorbed through the small intestine."
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [],
+        "QUESTION": []
+    },
+    "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Small intestine measures 6-8 meters (20 feet) in length and handles most digestion and food absorption. Large intestine is wider but shorter at 1.5 meters (5 feet) and primarily absorbs water and electrolytes. Total length ranges from 7.5-9.5 meters depending on individual.",
+        "CAUSE": "",
+        "SUGGESTION": "",
+        "QUESTION": ""
+    }
+    }
+]

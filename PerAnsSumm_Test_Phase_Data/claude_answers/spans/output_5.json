@@ -1,0 +1,127 @@
+[
+    {
+      "uri": 3154250,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [],
+        "CAUSE": ["The reason your body's temp is going up is because It's trying to get rid of something"],
+        "SUGGESTION": [
+          "Get a cold shower. Whatever you do don't cover up.",
+          "Take a couple aspirin, Tylenol or Advil",
+          "put a damp rag in the freezer til it's frozen (it will be stiff, shake it out, or rinse it quickly under cold water) then put it on the back of your neck",
+          "Motren or Tylenol all ways works",
+          "You can also take a bath in room temp water. Not cold that could cause hypothermia. Do not take a cold shower"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "",
+        "CAUSE": "Body temperature rises as a defense mechanism to fight off infections or other problems",
+        "SUGGESTION": "Take pain relievers like Tylenol, Motrin, or Advil. Use room temperature bath or cold compress on neck. Avoid covering up or taking cold showers due to hypothermia risk.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 1950071,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "doesnt sound like heart problems sounds more like severe athma"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "I would go to the school nurse and tell her your problems. She will then contact your family and have them get you to a Doctor to find out what is wrong with you",
+          "go to the doctor even if ur parents dont think anything is wrong",
+          "do need to go and get a chest x-ray done to be sure"
+        ],
+        "QUESTION": [
+          "Do you live in an area with considerable air (or water?) pollution?",
+          "Do you have any allergies? to pets? to food? to fabrics? to additives?",
+          "If you are 'very thin', do you eat enough? eat good food? no junk?",
+          "When you have these episodes, have you eaten anything unusual? or something you eat rarely? something fixed from a package mix?"
+        ]
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "The symptoms described align more with severe asthma rather than heart problems.",
+        "CAUSE": "",
+        "SUGGESTION": "Consult school nurse, seek medical attention regardless of parents' opinion, and get a chest x-ray for proper diagnosis.",
+        "QUESTION": "Questions raised about environmental factors, allergies, diet, and potential triggers for the symptoms."
+      }
+    },
+    {
+      "uri": 3733356,
+      "spans": {
+        "EXPERIENCE": [
+          "I was diagnosed with pulmonary valve stenosis at around the age of your daughter. I am now 22 years old. Around the time of my diagnosis the doctors did many tests and I had several cardiac catherizations. The doctors found out from all of these tests that my pulmonic valve was so tight and was about to close",
+          "I had a different heart condition in high school. Mine was called superventricular tachicardia (SVT) but it required a cathedar in my heart",
+          "I don't know if it's the same but my son had aortic stenosis when he was born. After many tests it just went away and no they did not have to do a catherization"
+        ],
+        "INFORMATION": [
+          "Treatment Patients with mild to moderate pulmonary valve stenosis, and few or no symptoms, do not require treatment. In more severe cases, the blocked valve will be opened surgically, either through balloon valvuloplasty or surgical valvulotomy. For initial treatment, balloon valvuloplasty is the procedure of choice",
+          "Rarely does the pulmonary valve need to be replaced",
+          "Patients with the most severe form of pulmonary valve stenosis may die in infancy. The prognosis for children with more severe stenosis who undergo balloon valvuloplasty or surgical valvulotomy is favorable. Patients with mild to moderate pulmonary stenosis can lead a normal life, but they require regular medical care"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "Personal accounts shared include cases of pulmonary valve stenosis requiring catheterization at young age, SVT requiring catheter treatment, and aortic stenosis that resolved without intervention.",
+        "INFORMATION": "Mild to moderate cases may not require treatment. Severe cases need surgical intervention through balloon valvuloplasty or surgical valvulotomy. Prognosis varies from favorable with treatment to potential infant mortality in severe cases.",
+        "CAUSE": "",
+        "SUGGESTION": "",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 2504438,
+      "spans": {
+        "EXPERIENCE": [
+          "I grew up with my grandma and her 3 sisters. At some time or another, all of them were diagnosed with heart failure. Their lifestyles and the quality of care they received played a significant role in their longevity. 2 of my grandma's sisters ate poorly, they smoked, they were overweight and they, in general, didn't take good care of themselves. They didn't have as much success as my grandma and her remaining sister. Both of them were diagnosed with heart failure in their late 60's or early 70's and each of them lived to be in their mid-80's"
+        ],
+        "INFORMATION": [
+          "Heart failure has several basic etiologies. 1) Ischemic - blockages in the arteries causing changes in the heart muscle. 2) Valvular - leakage in one or two valves making the heart output inefficient. There can also be leaks between the right side and the left side of the heart (called a shunt) that can affect the heart's efficiency too. 3) Chemical toxicity - certain treatments, like chemo used to irradicate breast cancer can be toxic to the myocardium. 4) Post myocardial infarction - heart attack causes damage that may never fully heal. 5) Idiopathic - No known other cause",
+          "With optimal medication regimen and diet control (no more than 2 grams of salt a day), the symptoms of congestive heart failure (shortness of breath, leg swelling, inability to lie down without several pilloes) can be really well controlled"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "Make sure your mom is under competent doctor care (either primary doctor or cardiologist)"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "Family history shared of four sisters with heart failure, showing lifestyle impact on outcomes. Those who maintained healthy habits lived into their mid-80s despite diagnosis in their 60s-70s.",
+        "INFORMATION": "Heart failure has multiple causes including arterial blockages, valve issues, chemical toxicity, post-heart attack damage, and idiopathic causes. Symptoms include shortness of breath, leg swelling, and difficulty lying flat. Can be managed with medication and salt restriction.",
+        "CAUSE": "",
+        "SUGGESTION": "Ensure proper medical care under a competent doctor or cardiologist.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 2911134,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "bird flu produces respiratory distress. can you picture a patient with pneumonia? can you picture a fish out of the water? Breathing becomes so difficult. Your lungs fill up with your own body fluids same as in drowning but not with sea water",
+          "It start with Ordainary fever.But there are no clear symptoms.Only some lab tests can tell about Nh-5 virus (Bird Flu virus)",
+          "it's not the bird flu itself that kills but the body's imune system over reacting... which is why in the 1918 pandemic it was those with a healthy imune system that died (ie. the fit and young... not the old)"
+        ],
+        "CAUSE": [
+          "it's not the bird flu itself that kills but the body's imune system over reacting"
+        ],
+        "SUGGESTION": [
+          "it's best not to worry about it too much, it will start to affect the bird population first so once that starts happening just avoid handling live birds or their dung... and if it gets into the human population on an epidemic or pandemic scale then it would be best to avoid close proximity situations ie. trains, busses, public sauna's"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Bird flu causes severe respiratory distress similar to pneumonia, with fluid-filled lungs. Initial symptoms include ordinary fever, but definitive diagnosis requires lab testing. The 1918 pandemic particularly affected young, healthy individuals due to immune response.",
+        "CAUSE": "Death occurs due to overreaction of the body's immune system rather than the virus itself.",
+        "SUGGESTION": "Monitor bird populations, avoid handling birds or their waste if outbreaks occur, and limit exposure to crowded places during epidemics.",
+        "QUESTION": ""
+      }
+    }
+  ]

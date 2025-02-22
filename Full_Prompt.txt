@@ -1,0 +1,535 @@
+# Medical Question-Answer Analysis Task
+## Task Overview
+Your task is to analyze medical question-answer pairs by:
+1. Identifying and classifying specific text spans from answers into defined categories
+2. Creating comprehensive summaries for each category
+3. Outputting results in a specific JSON format
+The goal is to help users quickly understand different types of medical information and perspectives in healthcare discussions.
+## Category Definitions
+### 1. INFORMATION
+- **What to Look For**: Factual, objective statements about medical conditions, treatments, or general healthcare facts
+- **Key Indicators**: Medical terminology, statistical data, professional knowledge, general facts
+- **Positive Examples**:
+- "Parkinson's disease is one of the most common neurologic disorders of the elderly"
+- "Mean Corpuscular Hemoglobin Concentration measures the average concentration of hemoglobin in red blood cells"
+- **Negative Examples**:
+- ❌ "I took the medicine yesterday" (This is EXPERIENCE)
+- ❌ "You should drink more water" (This is SUGGESTION)
+### 2. EXPERIENCE
+- **What to Look For**: Personal accounts, first-hand observations, individual stories
+- **Key Indicators**: First-person pronouns (I, my, we), specific timelines, personal outcomes
+- **Positive Examples**:
+- "I drank about 5 each 16 oz bottles for a few days and the pain went away"
+- "I had surgery myself about 10 years ago"
+- **Negative Examples**:
+- ❌ "Drinking water helps with pain" (This is INFORMATION)
+- ❌ "Try drinking more water" (This is SUGGESTION)
+### 3. SUGGESTION
+- **What to Look For**: Recommendations, advice, proposed solutions
+- **Key Indicators**: Imperative verbs (try, take, use), conditional statements, action-oriented language
+- **Positive Examples**:
+- "Try taking 500 mg to 1,000 mg of magnesium at night"
+- "Take light dinner in the night. Don't watch violent programs on TV before sleep"
+- **Negative Examples**:
+- ❌ "Magnesium helps with sleep" (This is INFORMATION)
+- ❌ "I took magnesium and it helped" (This is EXPERIENCE)
+### 4. CAUSE
+- **What to Look For**: Explanations of why medical conditions occur or worsen
+- **Key Indicators**: Causal language (because, due to, leads to, causes)
+- **Positive Examples**:
+- "it gets worse in winter b/c of dry heat"
+- "shouting may be because of bad sleep"
+- **Negative Examples**:
+- ❌ "Winter is cold" (This is INFORMATION)
+- ❌ "Avoid cold weather" (This is SUGGESTION)
+### 5. QUESTION
+- **What to Look For**: Interrogative statements within answers
+- **Key Indicators**: Question marks, interrogative structure
+- **Positive Examples**:
+- "Have you seen a gastroenterologist?"
+- "The first question would be are you taking any meds?"
+- **Negative Examples**:
+- ❌ "You should see a doctor" (This is SUGGESTION)
+- ❌ "I saw a doctor" (This is EXPERIENCE)
+## Span Selection Rules
+### Critical Rules:
+1. **Exact Quotes Required**
+- Copy text exactly as written, including misspellings
+- Preserve original punctuation
+- Include full contextual phrases
+- Don't correct grammar or spelling
+2. **Span Boundaries**
+- Start at the beginning of the relevant thought
+- Include necessary context
+- Don't break mid-sentence unless category changes
+- Don't create overlapping spans
+3. **Multiple Spans**
+- Each category can have multiple spans
+- Each span must be complete on its own
+- Don't split related information unnecessarily
+- Empty arrays for categories with no spans
+## Summary Templates and Patterns
+Each category has specific patterns for summaries:
+1. INFORMATION Summary
+- Often starts with "For information purposes..."
+- Combines factual information across spans
+- Uses formal medical terminology
+- Presents information logically
+- Maintains objective tone
+2. EXPERIENCE Summary
+- Often starts with "In users expereince..."
+- Synthesizes personal stories
+- Preserves key details of experiences
+- Uses more informal language
+- Captures emotional content
+3. CAUSE Summary
+- Direct statement of causes
+- Links conditions with triggers
+- Clear cause-effect relationships
+- Combines multiple causes when present
+- Objective scientific tone
+4. SUGGESTION Summary
+- Lists recommendations clearly
+- Groups related suggestions
+- Maintains actionable language
+- Combines similar advice
+- Clear, directive tone
+5. QUESTION Summary
+- Brief summary of key inquiries
+- Groups related questions
+- Maintains question context
+- Usually shorter than other summaries
+## Summary Generation Guidelines
+### Core Principles:
+1. **Style Requirements**
+- Use formal, professional language
+- Correct spelling and grammar (unlike spans)
+- Maintain medical accuracy
+- Connect related concepts
+- Be concise but comprehensive
+2. **Content Integration**
+- Combine similar information across spans
+- Remove redundancy
+- Preserve important details
+- Use objective tone
+- Present information logically
+3. **Category-Specific Summary Approaches**
+#### INFORMATION Summary
+- Focus on fact presentation
+- Use medical terminology correctly
+- Organize facts logically
+- Maintain objective tone
+Example: "Parkinson's disease is a prevalent neurologic disorder among the elderly, characterized by movement abnormalities caused by dopamine neuron damage."
+#### EXPERIENCE Summary
+- Synthesize shared experiences
+- Use third-person perspective
+- Highlight common outcomes
+- Preserve relevant timeline information
+Example: "Multiple individuals reported success with using warm water for symptom relief, with symptoms typically improving within a few days of treatment."
+#### SUGGESTION Summary
+- Present options clearly
+- Organize recommendations logically
+- Group similar suggestions
+- Maintain actionable language
+Example: "To manage symptoms, it is recommended to take magnesium supplements at night, maintain a light dinner, and avoid violent programs before sleep."
+#### CAUSE Summary
+- Explain relationships clearly
+- Connect conditions with triggers
+- Use clear cause-effect language
+Example: "Symptoms typically worsen during winter due to dry heat, and poor sleep quality can trigger episodes of shouting during sleep."
+#### QUESTION Summary
+- Summarize key inquiries
+- Group related questions
+- Maintain question context
+Example: "Users inquired about medication usage and its potential effects on symptoms."
+## Handling Empty Categories
+### Important Notes About Empty Categories
+1. It is normal and expected for some categories to be empty
+2. Not all answers will contain content for every category
+3. Never force categorization when content doesn't clearly fit
+4. Empty categories should use:
+- Empty arrays [] for spans
+- Empty strings "" for summaries
+### When to Leave Categories Empty
+- No relevant content exists
+- Content is ambiguous or unclear
+- Answer is too short to meaningfully categorize
+- Content doesn't clearly fit any category
+- Better to leave empty than force incorrect categorization
+### Common Patterns in Spans
+1. INFORMATION Spans
+- Medical facts and explanations
+- Statistical data
+- Professional knowledge
+- General health facts
+- Research findings
+2. EXPERIENCE Spans
+- First-person accounts ("I", "my", "we")
+- Personal stories
+- Individual outcomes
+- Timeline descriptions
+- Emotional reactions
+3. SUGGESTION Spans
+- Direct recommendations
+- Treatment options
+- Prevention strategies
+- Action steps
+- How-to instructions
+4. CAUSE Spans
+- Disease mechanisms
+- Risk factors
+- Trigger explanations
+- Condition origins
+- Causal relationships
+5. QUESTION Spans
+- Direct inquiries
+- Rhetorical questions
+- Clarifying questions
+- Follow-up questions
+## Examples of Valid Empty Categories
+json
+{
+"spans": {
+"EXPERIENCE": [], // No personal experiences shared
+"INFORMATION": ["some factual content"],
+"CAUSE": [], // No causal explanations
+"SUGGESTION": [], // No recommendations
+"QUESTION": [] // No questions asked
+},
+"summaries": {
+"EXPERIENCE": "", // Empty because no spans
+"INFORMATION": "Summary of factual content",
+"CAUSE": "", // Empty because no spans
+"SUGGESTION": "", // Empty because no spans
+"QUESTION": "" // Empty because no spans
+}
+}
+
+## Output Format
+json
+{
+"uri": "QUESTION_ID",
+"spans": {
+"EXPERIENCE": ["exact quote 1", "exact quote 2"],
+"INFORMATION": ["exact quote 3"],
+"CAUSE": ["exact quote 4"],
+"SUGGESTION": ["exact quote 5"],
+"QUESTION": ["exact quote 6"]
+},
+"summaries": {
+"EXPERIENCE": "Synthesized summary of experiences",
+"INFORMATION": "Integrated factual summary",
+"CAUSE": "Unified causal explanation",
+"SUGGESTION": "Collected recommendations",
+"QUESTION": "Key questions raised"
+}
+}
+
+## Quality Over Quantity
+Remember:
+1. High-quality categorization does not require filling all categories
+2. Better to have fewer, accurate categories than forced categorization
+3. Some excellent answers might only fit one category
+4. Focus on clear, unambiguous categorization
+### Examples of Valid Minimal Categorization
+1. Single-Category Answer:
+- Short factual response → only INFORMATION
+- Personal story → only EXPERIENCE
+- Pure recommendation → only SUGGESTION
+2. Two-Category Answer:
+- Fact + Recommendation
+- Experience + Suggestion
+- Cause + Information
+## Example Output with Proper Formatting
+json
+{
+"uri": "123456",
+"spans": {
+"INFORMATION": [
+"There is no \"cure\" (yet...) for AIDS",
+"Research is ongoing\nNew treatments emerge",
+"Dr. Smith says \"progress is promising\""
+],
+"EXPERIENCE": [],
+"CAUSE": [],
+"SUGGESTION": [],
+"QUESTION": []
+},
+"summaries": {
+"INFORMATION": "Currently, there is no cure for AIDS, though research continues to advance. Medical experts, including Dr. Smith, note promising progress in treatment development. While a definitive cure remains elusive, ongoing studies provide hope for future breakthroughs.",
+"EXPERIENCE": "",
+"CAUSE": "",
+"SUGGESTION": "",
+"QUESTION": ""
+}
+}
+
+Note the proper handling of:
+- Escaped quotes (\"text\")
+- Newlines (\n)
+- Empty categories ([])
+- Empty summaries ("")
+- Punctuation preservation
+## Example Batch Output
+json
+[
+{
+"uri": "504766",
+"spans": {
+"EXPERIENCE": [
+"a clay mask will make the eczema go away completely",
+"My son has eczema and his doctor told me"
+],
+"INFORMATION": ["Eczema is a condition, not a disease"],
+"CAUSE": [],
+"SUGGESTION": [],
+"QUESTION": []
+},
+"summaries": {
+"EXPERIENCE": "Users report success with clay masks...",
+"INFORMATION": "For information purposes, eczema is...",
+"CAUSE": "",
+"SUGGESTION": "",
+"QUESTION": ""
+}
+},
+{
+"uri": "1564117",
+"spans": {
+"EXPERIENCE": [],
+"INFORMATION": ["hypothyroidism means..."],
+"CAUSE": ["depression", "hypothyroidism"],
+"SUGGESTION": ["see a doctor"],
+"QUESTION": []
+},
+"summaries": {
+"EXPERIENCE": "",
+"INFORMATION": "For information purposes...",
+"CAUSE": "Low energy and weight gain...",
+"SUGGESTION": "While being active...",
+"QUESTION": ""
+}
+}
+]
+
+Note proper:
+- Array structure
+- Question ordering
+- Consistent formatting
+- Complete individual answers
+- Proper nesting and brackets
+## Common Mistakes to Avoid
+1. **Span Selection Errors**
+- Don't paraphrase - use exact quotes
+- Don't mix categories - each span belongs to one category
+- Don't omit relevant spans
+- Don't create overlapping spans
+- Don't include irrelevant text
+2. **Summary Generation Errors**
+- Don't introduce new information
+- Don't contradict spans
+- Don't keep misspellings from spans
+- Don't summarize empty categories
+- Don't mix category perspectives
+## Content to Exclude
+The following types of content should NOT be categorized:
+1. General chatter or small talk
+- "Thanks for asking"
+- "Hope this helps"
+- "Good luck"
+2. Off-topic responses
+- Unrelated stories
+- Tangential discussion
+- Personal comments
+3. Unclear/ambiguous content
+- Vague statements
+- Incomplete thoughts
+- Confusing responses
+4. Too brief to classify
+- Single word responses
+- Simple agreement/disagreement
+- Basic acknowledgments
+## Array Structure Guidelines
+Key points for batch output formatting:
+1. Array Syntax
+json
+[ // Open array
+{...}, // First question (with comma)
+{...}, // Second question (with comma)
+{...} // Last question (no comma)
+] // Close array
+
+2. Nesting Rules
+- Array contains objects
+- Each object is complete
+- Objects separated by commas
+- No comma after last object
+3. Whitespace
+- Indentation for readability
+- Consistent spacing
+- Clear structure levels
+- Proper line breaks
+4. Error Prevention
+- Count opening/closing brackets
+- Verify comma placement
+- Check nesting levels
+- Validate complete structure
+## Summary Patterns and Style
+Each category has common patterns that emerge naturally in high-quality summaries. These are guidelines, not rigid templates:
+1. INFORMATION Summaries
+- Technical/Medical Content:
+- Often starts with "For information purposes..."
+- Maintains formal medical terminology
+- Presents facts in logical sequence
+Example: "For information purposes, the Mean Corpuscular Hemoglobin Concentration test measures..."
+- Current State Descriptions:
+- Often starts with temporal markers ("Currently...")
+- Focuses on present situation
+- May include future implications
+Example: "Currently, there is no cure for [condition], however..."
+2. EXPERIENCE Summaries
+- Often begins with "In users experience..."
+- Synthesizes multiple experiences naturally
+- Preserves relevant personal details
+- Maintains conversational yet clear tone
+Example: "In users experience, several individuals reported success with..."
+3. SUGGESTION Summaries
+- Direct and action-oriented
+- Groups related suggestions naturally
+- Includes specific details where available
+- Flows from general to specific
+Example: "Recommended approaches include [method], along with..."
+4. CAUSE Summaries
+- Direct statement of causes
+- Links conditions with triggers
+- May include multiple factors
+- Clear cause-effect relationships
+Example: "The condition may be triggered by [cause], particularly..."
+5. QUESTION Summaries
+- Brief and focused
+- Groups related inquiries
+- Maintains question context
+- Clear and concise
+Example: "Users inquired about [topic], specifically regarding..."
+Key Principles for All Summaries:
+1. Adapt style to content type
+2. Allow natural flow after standard openers
+3. Group related information logically
+4. Maintain appropriate formality level
+5. Preserve technical accuracy
+6. Use clear transitions between ideas
+## Summary Writing Guidelines
+Key principles for comprehensive summaries:
+1. Completeness
+- Include all major points from spans
+- Capture nuances and qualifications
+- Include temporal aspects (current state, future hopes)
+- Connect related concepts
+2. Flow and Structure
+- Natural progression of ideas
+- Logical connections between points
+- Smooth transitions
+- Build complete narrative
+3. Tone and Style
+- Professional medical language
+- Balance technical and accessible terms
+- Include contextual information
+- Maintain appropriate perspective
+4. Future/Research Aspects
+- Include ongoing research when mentioned
+- Note future possibilities
+- Include hopes for advancement
+- Acknowledge current limitations
+Example Summary Evolution:
+Basic: "There is no cure for AIDS but medications exist."
+Better: "Currently, there is no cure for AIDS, though various medications help manage symptoms."
+Best: "Currently, there is no cure for AIDS, though various medications aim to alleviate symptoms. Research continues with hopes for future breakthroughs, while existing treatments focus on symptom management and quality of life improvement."
+## Handling Contradictions
+When different answers provide conflicting information:
+1. Include all relevant perspectives in spans
+2. Use qualifying language in summaries
+3. Maintain objective tone
+4. Don't try to resolve contradictions
+5. Present alternative viewpoints clearly
+Example:
+- Span 1: "X is completely safe"
+- Span 2: "X is dangerous"
+- Summary: "Opinions on X's safety vary, with some sources indicating it is safe while others warn of potential dangers."
+## Batch Processing Requirements
+When processing multiple questions:
+1. Output Format
+json
+[
+{
+"uri": "first_question_id",
+"spans": {
+"EXPERIENCE": [...],
+"INFORMATION": [...],
+"CAUSE": [...],
+"SUGGESTION": [...],
+"QUESTION": []
+},
+"summaries": {
+"EXPERIENCE": "...",
+"INFORMATION": "...",
+"CAUSE": "...",
+"SUGGESTION": "...",
+"QUESTION": ""
+}
+},
+{
+"uri": "second_question_id",
+"spans": {...},
+"summaries": {...}
+}
+]
+
+2. Critical Requirements
+- Process each question independently
+- Maintain original question order
+- Apply consistent formatting to all answers
+- Include complete data for each question
+- Use proper JSON array syntax
+- Preserve all formatting rules for individual answers
+3. Common Batch Processing Mistakes
+- Mixing data between questions
+- Changing question order
+- Inconsistent formatting across answers
+- Incomplete array structure
+- Missing closing brackets
+## JSON Formatting Requirements
+Critical formatting rules for spans and summaries:
+1. Quotes and Special Characters
+- Use escaped quotes: \"text\" NOT "text"
+- Use \n for newlines
+- Preserve original text exactly, including punctuation
+- Include all formatting characters as shown in source
+Example:
+json
+{
+"spans": {
+"INFORMATION": [
+"There is no \"cure\" for AIDS",
+"Line one\nLine two"
+]
+}
+}
+
+2. Common Mistakes to Avoid
+- Unescaped quotes in text
+- Raw newlines in text
+- Missing punctuation
+- Incorrect escaping
+3. Always preserve:
+- Original spelling
+- Original punctuation
+- Original formatting
+- Original quotation marks (escaped)
+## Quality Checklist
+Before submitting, verify:
+1. All spans are exact quotes
+2. All relevant information is captured
+3. Summaries are complete and accurate
+4. Category assignments are correct
+5. Format matches requirements
+6. Empty categories handled correctly

@@ -1,0 +1,121 @@
+[
+    {
+      "uri": 937765,
+      "spans": {
+        "EXPERIENCE": [
+          "I was able to eat again that same day and had virtually no pain at all once the surgery was over",
+          "I didn't eat regular food for a week",
+          "I was numb that whole night...it wasn't until late at night that it started to wear off"
+        ],
+        "INFORMATION": [
+          "It took hours before the novocaine wore off when I had mine done"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "Try not to eat anything too solid or crunchy tomorrow... -& go easy eating on Thanksgiving",
+          "you should probably take some sort of painkiller",
+          "you're usually not supposed to stick to soft, cold foods",
+          "Don't chew anything until the numbness is gone. You could bite a hole in your cheek or your tongue",
+          "make sure you use your saltwater rinse, it helps it heal"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "Some patients could eat same day while others needed a week before eating regular food. Numbness lasted until late night after procedure.",
+        "INFORMATION": "Novocaine takes several hours to wear off after wisdom teeth removal.",
+        "CAUSE": "",
+        "SUGGESTION": "Avoid solid or crunchy foods initially, use painkillers as needed, perform saltwater rinses, and wait for numbness to wear off before eating to prevent injury.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 2921982,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "Those baby teeth do more than just help with MILK. The hold the spaced, provide a stable occlusion to stimulate jaw growth, and hole the bone open for the erupting permanent teeth"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "Take her to a dentist, so you wont worry about her dental future"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Baby teeth serve multiple functions including maintaining spacing, supporting jaw growth, and preserving space for permanent teeth.",
+        "CAUSE": "",
+        "SUGGESTION": "Consult a dentist for proper evaluation of dental development.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 3985337,
+      "spans": {
+        "EXPERIENCE": [
+          "I'VE HAD DIABETES FOR 27 YEARS. I TOLD MYSELF I WAS IN GOOD HEALTH, SO I RARELY WENT TO THE DOCTOR. NOW I'M BLIND IN MY LEFT EYE"
+        ],
+        "INFORMATION": [
+          "Diabetes is a silent killer. It does not show any symptoms if your heart, kidney, liver, eye, tooth, nerve etc are affected",
+          "Fasting blood glucose should be less than 120.post prandial (after food) should be less than 200"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "please consult a specialist doctor at least every 3 months and a dentist every year",
+          "Sugar, fat & oils (fried foods) should be avoided",
+          "You may also take the following tests:- (1) Fasting blood sugar and post prandial blood sugar. (2) HbA1c (3) Lipid profile. (4) Urine routine analysis"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "A 27-year diabetic patient lost vision in left eye due to lack of regular medical care.",
+        "INFORMATION": "Diabetes can silently affect multiple organs. Normal fasting glucose should be below 120 and post-prandial below 200.",
+        "CAUSE": "",
+        "SUGGESTION": "Regular consultation with specialists every 3 months, yearly dental checkups, avoiding sugar and fried foods, and getting comprehensive tests including HbA1c and lipid profile.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 3615066,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [
+          "74-105 is the average \"normal\" range"
+        ],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "Talk with your doctor, see a specialist and find out as much as you can about your disease",
+          "Stay active, eat healthy and keep your charbs down",
+          "if she has normal glucose level, she should NOT be taking it"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "Normal blood glucose range is 74-105.",
+        "CAUSE": "",
+        "SUGGESTION": "Consult doctor and specialist, maintain healthy lifestyle with low carbs, and avoid taking diabetes medication if glucose levels are normal.",
+        "QUESTION": ""
+      }
+    },
+    {
+      "uri": 2072148,
+      "spans": {
+        "EXPERIENCE": [],
+        "INFORMATION": [],
+        "CAUSE": [],
+        "SUGGESTION": [
+          "I would first recommend you check with a dietitian, many times your insurance will pay for this since its cheaper than an amputation for mismanaged diabetes",
+          "Make sure you eat at least 50 grams of carbs. per day to prevent muscle wasting. Don't eat processed foods, eat lots of fruit and fresh veggies"
+        ],
+        "QUESTION": []
+      },
+      "summaries": {
+        "EXPERIENCE": "",
+        "INFORMATION": "",
+        "CAUSE": "",
+        "SUGGESTION": "Consult a dietitian covered by insurance, maintain minimum 50g daily carb intake, avoid processed foods, and eat fresh fruits and vegetables.",
+        "QUESTION": ""
+      }
+    }
+  ]
